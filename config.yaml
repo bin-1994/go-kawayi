@@ -1,0 +1,24 @@
+base:
+ #debug or release
+ model: debug
+ port: 9090
+ proxy: http://123.207.69.33:8707
+
+db:
+ type: mysql
+ host: 127.0.0.1
+ database: kawayi
+ username: root
+ password: ~
+ port: 3306
+ chaset: utf8
+
+redis:
+ host: 127.0.0.1
+ port: 6379
+ password:
+
+lsm:
+ verify: https://captcha.luosimao.com/api/site_verify
+ key:
+
